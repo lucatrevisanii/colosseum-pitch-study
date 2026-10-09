@@ -1,0 +1,17 @@
+[project]
+name = "colosseum-pitch-study"
+version = "1.0.0"
+description = "Counts and tests for a study of Colosseum hackathon and Demo Day pitch videos"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "BLE", "SIM", "RUF"]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+pythonVersion = "3.12"
